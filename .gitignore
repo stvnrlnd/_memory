@@ -1,0 +1,8 @@
+# Local dev — tracked by their own repos on GitHub
+_sites/
+okonomi/
+
+# Obsidian runtime state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/terminal/data.json
