@@ -2,53 +2,62 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Workspace Overview
+## About This Workspace
 
-This is a personal workspace repository containing three categories of work:
+This is the admin layer for Steven Roland's work as CEO and sole developer of Segment Holdings. It serves as a shared knowledge base between Steven and Claude across multiple businesses and projects.
 
-- **`_sites/`** — Laravel + Statamic web projects (each has its own `CLAUDE.md`)
-- **`_vaults/`** — Obsidian knowledge vaults, organized by family/company group
-- **`okonomi/`** — Personal Omarchy Linux desktop configuration
+- **`_docs/`** — High-level thinking, project overviews, and business plans. Organized into group folders by entity or client, with a subfolder per project. Start here for context on any project.
+- **`_sites/`** — Web project code. Each site is tracked in its own git repository and has its own `CLAUDE.md` with project-specific technical guidance.
 
-The root directory itself is also an Obsidian vault (see `.obsidian/`).
+The root directory is an Obsidian vault (`.obsidian/`), with `_docs/` as its organized content.
 
-## Sites (`_sites/`)
+## How We Work Together
 
-Each site is a standalone Laravel 12 + Statamic 6 application. When working inside a site, consult that site's own `CLAUDE.md` — it contains the full Laravel Boost guidelines, package versions, testing conventions, and coding standards specific to that project.
+Steven is both the CEO and the sole developer across all projects. This workspace exists so that Claude has the context needed to assist across those projects effectively — from high-level strategy to implementation.
 
-Current sites:
-- `homestead_plus/` → homestead.plus
-- `sendfeed_to/` → sendfeed.to
-- `stevenroland_com/` → stevenroland.com
+When starting work on a project:
+- Look in `_docs/[Group]/[project]/` for product context, business goals, and decisions
+- Look in `_sites/[project]/CLAUDE.md` for technical guidance
 
-### Common site commands (run from the site directory)
+When creating new project documentation, place it in the appropriate `_docs/[Group]/[project]/` folder.
 
-```bash
-composer install && npm install   # Install dependencies
-composer run dev                  # Start dev server (Vite + PHP)
-php artisan test --compact        # Run all tests
-php artisan test --compact tests/Feature/SomeTest.php  # Run one file
-php artisan test --compact --filter=testName            # Run one test
-vendor/bin/pint --dirty --format agent   # Fix PHP code style after changes
-php artisan route:list --except-vendor  # Inspect routes
-php artisan tinker --execute 'Your::code();'  # Run PHP in app context
-php please                        # Statamic CLI (list available commands)
-```
+When starting or continuing work on any project, check whether a `changelog.md` exists in its `_docs/` folder. If it doesn't, create one. As work is done — whether code, documentation, or decisions — add a dated entry to the changelog. Admin and documentation work counts and should be recorded.
 
-## Vaults (`_vaults/`)
+## Dart (Project Management)
 
-Obsidian markdown vaults grouped by family/entity:
-- `allgood_roland/` — allgood-roland.org, openfaith.world, stevenroland.com, theirvoice.blog, theoandchar.com
-- `big_city_software/` — Big City Software client sites
-- `kelley_roland/` — Kelley Roland family
-- `segment_holdings/` — homestead.plus, sendfeed.to, segment.holdings
+Dart is the project management tool for Segment Holdings. Access it via MCP tools (`mcp__Dart__*`).
 
-## Okonomi (`okonomi/`)
+### Spaces & Dartboards
 
-Personal preferences and configuration for [Omarchy](https://omarchy.org), an Arch Linux + Hyprland setup. Use the `omarchy` skill when editing files here.
+Tasks are organized into team spaces, each with a dartboard:
 
-## Environment
+| Space | Dartboard | Purpose |
+|---|---|---|
+| Leadership | Leadership/Tasks | High-level ideas and directional tasks — Steven's starting point |
+| Engineering | Engineering/Active, /Next, /Sprint 1, /Sprint 2, /Backlog | Dev work |
+| Product | Product/Tasks | Product decisions and specs |
+| Design | Design/Tasks | Design work |
+| Sales | Sales/Tasks | Sales activity |
 
-- `.mise.toml` adds `bin/` to PATH (for any local scripts)
-- Sites use SQLite by default in development
-- Docker Compose (`compose.yaml`) is available in each site for containerized development
+### Workflow
+
+Steven's typical flow:
+1. A new idea or initiative starts as a task in **Leadership/Tasks** — these are often directional/exploratory and may not yet have a project tag.
+2. Leadership tasks may spin off subtasks assigned to Engineering, Product, Design, or Sales dartboards.
+3. Tasks in team dartboards (non-Leadership) should have a **project** tag applied to link them to a specific project.
+
+### Custom Properties
+
+- **`project`** (multiselect) — Links a task to one or more projects. Current values include: `sendfeed.to`, `segment.holdings`, `firstcitysoftware.com`, `homestead.plus`, `openfaith.world`, `stevenroland.com`, `allgood-roland.org`, `montanna.pro`, `theirvoice.blog`, `theoandchar.com`, and others. Apply this to all non-Leadership tasks.
+- **`importance`** (select) — `Critical`, `Priority`, `Pickup`, `Optional`.
+
+### Task Types & Statuses
+
+- **Types:** Task, Bug, Feature, Experimental, Maintenance, Security
+- **Statuses:** Ready, In Progress, On Hold, Done, Left
+
+### Assignees
+
+- Steven Roland (`steven@segment.team`) — CEO and sole developer; default assignee for most tasks
+- Montanna Allgood (`montanna@segment.team`)
+- Dart AI
