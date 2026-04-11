@@ -1,5 +1,15 @@
 # homestead.plus — Changelog
 
+## 2026-04-10
+
+- Captured core platform philosophy: Amazon-style transparent vendor identity (designer name, profile, and reputation are public and prominent) vs. ABHP's white-label model where the designer is hidden from the customer
+- Documented ABHP delivery problems: inconsistent delivery methods (email / Dropbox / ABHP tool varies by designer), no lead time disclosure pre-purchase, customers surprised by weeks-long waits
+- Added pre-purchase license agreement signing to the checkout flow in `user-flows.md` (license presented and signed before payment; recorded against the order)
+- Updated `competitive-landscape.md` with the above pain points and expanded differentiators table
+- Created `growth.md` — early adopter strategy, Designer Spotlight concept, public profile as anti-ABHP positioning, notes on competing while employed at ABHP
+- Created `buyer-journey.md` — documents the "From Dream to Move-In" framework, the GitLab-parallel marketing angle, delivery tier concept (Visualization / Builder / Permit packages), and content/SEO implications
+- Linked `buyer-journey.md` from overview
+
 ## 2026-04-09
 
 - Defined product variant model: each floor plan product has designer-defined variants (e.g., 2BR vs. 3BR); variants carry their own price, specs, lead time, and files

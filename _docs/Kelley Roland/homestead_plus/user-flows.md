@@ -27,12 +27,13 @@ Status: Draft — flows are defined at the conceptual level; detailed UX design 
 ### Purchasing a Floor Plan (Instant Delivery)
 
 1. Select variant → checkout
-2. Enter payment details (Stripe)
-3. Payment captured → `Order` created with status `Paid`
-4. Redirected to order confirmation / viewer
-5. Floor plan opens in the **in-browser viewer**
-6. If designer has enabled download for this variant: PDF download button available
-7. Order accessible from order history at any time; viewer available on re-open
+2. **If designer requires a license agreement:** license is presented at checkout; customer must sign (checkbox + timestamp) before proceeding
+3. Enter payment details (Stripe)
+4. Payment captured → `Order` created with status `Paid`; signed license agreement recorded against the order
+5. Redirected to order confirmation / viewer
+6. Floor plan opens in the **in-browser viewer**
+7. If designer has enabled download for this variant: PDF download button available
+8. Order accessible from order history at any time; viewer available on re-open
 
 ### Purchasing a Service or Lead-Time Product
 

@@ -17,6 +17,10 @@ The closest reference point for homestead.plus. The largest and most established
 
 ### What's broken or missing
 
+- **White-label vendor model** — ABHP presents all floor plans under its own brand. Customers have no idea they are purchasing from a third-party designer. The designer's identity, reputation, and relationship with the customer are deliberately hidden. This is the opposite of how Amazon works — and it means customers can't make an informed decision about who they're buying from.
+- **Deceptive delivery expectations** — a customer can spend thousands of dollars on a floor plan with no disclosure that it might take weeks for an unknown third party to send them their files. Lead times are not clearly communicated pre-purchase.
+- **Inconsistent file delivery** — each designer uses a different delivery method. Some use a generic file sharing service (Dropbox, Google Drive, etc.), some use ABHP's newer but underused internal file sharing tool, and some simply email the files. There is no platform standard. Customers don't know what to expect or where their files will arrive.
+- **No pre-purchase license signing** — ABHP allows designers to require signed license agreements, but there is no mechanism to present or sign a license agreement before purchase. This is a legal and trust gap on both sides.
 - **File store, not a platform** — the experience ends at download. There is no ongoing relationship between the customer and the platform after purchase. No viewer, no project management, no build team.
 - **No variant model** — a 2BR and a 3BR version of the same design are listed as completely separate, unrelated products. There is no structural connection between them.
 - **No professional network** — ABHP does not connect customers to builders, contractors, or other professionals. The plan sale is transactional and isolated.
@@ -56,16 +60,19 @@ Smaller catalog. Similar tiered pricing. No differentiation on the delivery or p
 
 | Feature | ABHP / Competitors | homestead.plus |
 |---|---|---|
-| File delivery | Download only | Viewer-first; download is designer-controlled |
-| IP protection | License terms only | Viewer with browser-level download prevention |
-| Plan variants | Separate unrelated listings | Variants on a single product (2BR / 3BR, etc.) |
-| Post-purchase | Nothing | Order history, re-view anytime, add-ons |
-| Project management | None | Projects with addresses, floor plan assignments, members |
-| Build team | None | Curated roster of professionals per project |
-| Professional network | None | Directory with preferred partner connections |
-| Services | None | Modifications, custom design, made-to-order reports |
-| Business tools | Minimal | Full app panel: product management, orders, profile |
-| Discovery | Search only | Search + connections + preferred partner referrals |
+| **Vendor transparency** | Hidden — all plans sold under ABHP brand | Amazon-style — designer identity, profile, and reputation are public and prominent |
+| **Lead time disclosure** | Not clearly communicated pre-purchase | Displayed on product/variant page; built into order lifecycle |
+| **File delivery** | Inconsistent — email, Dropbox, or ABHP tool depending on designer | Standardized — viewer-first in platform; download is designer-controlled per variant |
+| **License agreements** | Can be required but no pre-purchase signing mechanism | Presented and signed at checkout before payment |
+| **IP protection** | License terms only | Viewer with browser-level download prevention; raw file URLs never exposed |
+| **Plan variants** | Separate unrelated listings | Variants on a single product (2BR / 3BR, etc.) |
+| **Post-purchase** | Nothing | Order history, re-view anytime, add-ons |
+| **Project management** | None | Projects with addresses, floor plan assignments, members |
+| **Build team** | None | Curated roster of professionals per project |
+| **Professional network** | None | Directory with preferred partner connections |
+| **Services** | None | Modifications, custom design, made-to-order reports |
+| **Business tools** | Minimal | Full app panel: product management, orders, profile |
+| **Discovery** | Search only | Search + connections + preferred partner referrals |
 
 ---
 
