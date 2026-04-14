@@ -22,7 +22,7 @@ This file captures standing context that Claude should have in mind when working
 ## Montanna Allgood
 
 - Steven's wife, partner, and collaborator. `montanna@segment.team`. The [[20_areas/allgood-roland|Allgood Roland]] group represents projects built with or for her.
-- Has two children from a previous marriage: Theo and Char. nobullies.club and theoandchar.com are for them.
+- Has two children from a previous marriage: Theodore and Charlotte. nobullies.club and theoandchar.com are for them.
 - Her projects (theirvoice.blog, montanna.me/pro/shop, allgood-roland.org, etc.) are solely hers — Steven builds and maintains them but they belong to her.
 
 ## Kelley Roland (group)
@@ -60,6 +60,20 @@ Client work is a deliberate, time-limited bridge — not the destination.
 
 ## Active Projects (as of 2026-04-13)
 
+### In Production
+
+| Project | Notes | Group |
+|---|---|---|
+| [[10_projects/segment.holdings\|segment.holdings]] | Company site | Segment Holdings |
+| [[10_projects/stevenroland.com\|stevenroland.com]] | Personal site / freelance / blog | Steven Roland |
+| [[10_projects/theirvoice.blog\|theirvoice.blog]] | Montanna's anonymous blog | Allgood Roland |
+| [[10_projects/allgood-roland.org\|allgood-roland.org]] | Family/org site | Allgood Roland |
+| [[10_projects/firstcitysoftware.com\|firstcitysoftware.com]] | Relaunch planned | Big City Software |
+| [[10_projects/flwr.page\|flwr.page]] | Link shortener utility | Segment Holdings |
+| [[10_projects/openfaith.world\|openfaith.world]] | Faith project | Allgood Roland |
+
+### In Development
+
 | Project | Status | Group |
 |---|---|---|
 | [[10_projects/homestead.plus\|homestead.plus]] | In development | Kelley Roland |
@@ -81,4 +95,4 @@ Random ideas and fleeting notes land in `00_inbox/`. When a brainstorm produces 
 - **Community plugins:** none installed
 - **Template syntax:** core Templates plugin only — use `{{date:FORMAT}}`, not Templater syntax
 - **Daily notes plugin:** configured — folder `40_archives/daily`, template `30_resources/templates/daily-note`
-- **Templates plugin folder:** needs to be set in Obsidian settings to `30_resources/templates` (not yet configured as of 2026-04-13)
+- **Templates plugin folder:** `30_resources/templates`

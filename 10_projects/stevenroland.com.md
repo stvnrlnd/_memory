@@ -2,7 +2,7 @@
 title: stevenroland.com
 type: project
 area: "[[steven-roland]]"
-status: idea
+status: launched
 tags:
   - personal
   - freelance
@@ -28,4 +28,4 @@ Steven's personal website. It serves three purposes:
 
 ## Status
 
-Idea. No code or documentation yet.
+Launched. Live in production.
