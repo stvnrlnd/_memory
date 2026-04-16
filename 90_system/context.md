@@ -58,7 +58,7 @@ Steven's overall arc:
 
 Client work is a deliberate, time-limited bridge — not the destination.
 
-## Active Projects (as of 2026-04-13)
+## Active Projects (as of 2026-04-15)
 
 ### In Production
 
@@ -78,6 +78,7 @@ Client work is a deliberate, time-limited bridge — not the destination.
 |---|---|---|
 | [[10_projects/homestead.plus\|homestead.plus]] | In development | Kelley Roland |
 | [[10_projects/sendfeed.to\|sendfeed.to]] | In development | Big City Software |
+| [[10_projects/nvst.chat\|nvst.chat]] | In development | Personal (Steven Roland) |
 | [[10_projects/nobullies.club\|nobullies.club]] | In development | Allgood Roland |
 | [[10_projects/hirethedude.com\|hirethedude.com]] | Pre-development | Big City Software |
 | [[10_projects/tokidoki.pro\|tokidoki.pro]] | Ideation | Big City Software |

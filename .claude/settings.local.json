@@ -6,7 +6,18 @@
       "Bash(ls /Users/stvnrlnd/Work/_memory/10_projects/homestead.plus*)",
       "Bash(ls /Users/stvnrlnd/Work/_memory/10_projects/nobullies.club*)",
       "Bash(ls /Users/stvnrlnd/Work/_memory/10_projects/hirethedude.com*)",
-      "Bash(ls /Users/stvnrlnd/Work/_memory/10_projects/tokidoki.pro*)"
+      "Bash(ls /Users/stvnrlnd/Work/_memory/10_projects/tokidoki.pro*)",
+      "Bash(./vendor/bin/sail ps *)",
+      "Bash(./vendor/bin/sail artisan *)",
+      "Bash(docker compose *)",
+      "Bash(docker exec *)",
+      "Bash(docker network *)",
+      "Bash(docker inspect *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(ls /home/stvnrlnd/Work/_code/swamp.team/vendor/livewire/flux/stubs/resources/views/flux/tab*)",
+      "Bash(./vendor/bin/sail down *)",
+      "Bash(./vendor/bin/sail up *)"
     ]
   }
 }
