@@ -42,7 +42,7 @@
 - [[2580-zero-downtime-high-availability-plan]]
 - [[2596-db-performance-helper]]
 - [[2592-show-republished-plans]]
-- [[2578-add-front-tag-for-local-orders]]
+- [[2578-add-front-tag-for-georgia-orders]]
 - [[2599-zoom-fathom-for-brian]]
 ## Rock Review
 ---

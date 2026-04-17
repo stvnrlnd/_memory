@@ -22,7 +22,7 @@ Are you anti- or pro-Godzilla?
 - [[2571-state-page-landing-page-parameter-for-paid-ads]]
 	- Plan to finish up today
 - [[2449-mod-quote-request-save-feature]] On Hold
-	- Taylor S. sent private slack message -- pushes LocalStorage, does not answers technical questions, uses AI code and Fathom recap in vaguely threatening way. See [[abhp/notes/2025-12-16|2025-12-16]] meeting notes, ref video.
+	- Taylor S. sent private slack message -- pushes LocalStorage, does not answers technical questions, uses AI code and Fathom recap in vaguely threatening way. See [[2025-12-16]] meeting notes, ref video.
 	- Taylor: Put current work on ice and may circle back later, use AI code and may need to tweak
 ### Brian M.
 - [[2075-css-framework]]
@@ -38,7 +38,7 @@ Are you anti- or pro-Godzilla?
 - [[2561-designer-deliverable-download-file-name]] In Review
 - [[2555-bug-wordpress-image-size]] In Review
 ### Taylor S.
-- [[2578-add-front-tag-for-local-orders]]
+- [[2578-add-front-tag-for-georgia-orders]]
 - [[2299-research-send-users-text-updates-for-quotes-order-statuses]]
 - [[2567-document-incident-report-scripts]] In Review
 - [[2441-set-up-webpagetest-automation]] In Review

@@ -36,7 +36,7 @@
 - Reviewing tasks
 ### Taylor S.
 - [[2592-show-republished-plans]]
-- [[2578-add-front-tag-for-local-orders]]
+- [[2578-add-front-tag-for-georgia-orders]]
 - [[2580-zero-downtime-high-availability-plan]]
 - [[2596-db-performance-helper]]
 - Deploying tasks, regular stuff, slack requests, no major things to report

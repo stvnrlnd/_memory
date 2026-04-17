@@ -1,5 +1,5 @@
 ---
-title: 2578-add-front-tag-for-local-orders
+title: "Add Front Tag for Georgia Orders"
 type: work-item
 item_type: task
 project: houseplans.net
@@ -11,7 +11,7 @@ url: https://trello.com/c/4SohVXeA/2578-add-front-tag-for-local-orders
 assignee: Taylor S.
 ---
 
-# 2578-add-front-tag-for-local-orders
+# Add Front Tag for Georgia Orders
 
 ## Description
 

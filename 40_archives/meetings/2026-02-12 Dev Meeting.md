@@ -34,7 +34,7 @@
 - [[2601-knowledge-base-integration-custom-domain-setup]]
 - [[2584-create-parameterized-query-functions]]
 - [[2592-show-republished-plans]]
-- [[2578-add-front-tag-for-local-orders]]
+- [[2578-add-front-tag-for-georgia-orders]]
 - [[2599-zoom-fathom-for-brian]]
 - [[2621-search-filter-by-age-range-views-range-number-of-favorites-etc]]
 - [[2622-why-doesnt-a-plan-sell]]

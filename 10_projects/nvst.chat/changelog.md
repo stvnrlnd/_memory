@@ -6,6 +6,18 @@ created: 2026-04-15
 
 # nvst.chat — Changelog
 
+## 2026-04-16 — Laravel Horizon
+
+- Installed `laravel/horizon` ^5.45; published config and `HorizonServiceProvider`
+- Switched `QUEUE_CONNECTION` from `database` to `redis` in `.env.example`; added `REDIS_*` vars
+- Configured two supervisors in `config/horizon.php`:
+  - `supervisor-trading` — `trading` queue, `simple` balance, 1 try, 30s timeout; handles `ExecuteTradeJob`, `GenerateSignalJob`, `OrbEntryJob`, `OrbExitJob`
+  - `supervisor-sync` — `sync` + `default` queues, `auto` balance, 3 tries, 120s timeout; handles all `Sync*` and `FetchMarketDataJob`
+- Added `public string $queue` to all 10 jobs (`trading` for execution/signal/ORB, `sync` for market data and portfolio sync)
+- `HorizonServiceProvider::gate()` — allows `steven@segment.team`
+- `composer dev` script: replaced `queue:listen` with `php artisan horizon`
+- Dashboard available at `/horizon`
+
 ## 2026-04-16 — Dual Watchlist (Auto + Manual)
 
 ### Automated Watchlist

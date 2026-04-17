@@ -29,7 +29,12 @@
       "Bash(vendor/bin/pint *)",
       "Bash(ls /home/stvnrlnd/Work/_code/nvst.chat/database/*.sqlite)",
       "Bash(sudo chmod *)",
-      "Bash(chmod -R o+w /home/stvnrlnd/Work/_code/nvst.chat/app/Ai/)"
+      "Bash(chmod -R o+w /home/stvnrlnd/Work/_code/nvst.chat/app/Ai/)",
+      "Bash(composer require *)",
+      "Bash(git mv *)",
+      "Bash(rm /home/stvnrlnd/Work/_memory/.git/index.lock)",
+      "Bash(git -C /home/stvnrlnd/Work/_memory mv \"40_archives/work_items/2578-add-front-tag-for-local-orders.md\" \"40_archives/work_items/2578-add-front-tag-for-georgia-orders.md\")",
+      "Bash(git -C /home/stvnrlnd/Work/_memory mv \"40_archives/work_items/2596-db-performance-helper-debug.md\" \"40_archives/work_items/2596-db-performance-helper.md\")"
     ]
   }
 }
