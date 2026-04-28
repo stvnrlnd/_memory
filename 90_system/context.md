@@ -58,7 +58,9 @@ Steven's overall arc:
 
 Client work is a deliberate, time-limited bridge — not the destination.
 
-## Active Projects (as of 2026-04-15)
+**Current priority (as of 2026-04-28):** Steven is in a financial crunch — living on credit cards, approaching inability to make monthly minimums. Freelancing is the immediate focus. SaaS project work is on hold until revenue stabilizes. See [[10_projects/stevenroland.com/leads]] for the active pipeline.
+
+## Active Projects (as of 2026-04-28)
 
 ### In Production
 
@@ -76,7 +78,7 @@ Client work is a deliberate, time-limited bridge — not the destination.
 
 | Project | Status | Group |
 |---|---|---|
-| [[10_projects/homestead.plus\|homestead.plus]] | In development | Kelley Roland |
+| [[10_projects/homestead.plus\|homestead.plus]] | In development — Statamic Peak site set up 2026-04-27 | Kelley Roland |
 | [[10_projects/sendfeed.to\|sendfeed.to]] | In development | Big City Software |
 | [[10_projects/nvst.chat\|nvst.chat]] | In development | Personal (Steven Roland) |
 | [[10_projects/nobullies.club\|nobullies.club]] | In development | Allgood Roland |

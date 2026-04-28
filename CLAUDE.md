@@ -54,36 +54,4 @@ Create a daily note at `40_archives/daily/YYYY-MM-DD.md` when starting a session
 
 ## Dart (Project Management)
 
-Dart is the project management tool. Access via MCP tools (`mcp__Dart__*`).
-
-### Spaces & Dartboards
-
-| Space | Dartboard | Purpose |
-|---|---|---|
-| Leadership | Leadership/Tasks | High-level ideas and directional tasks |
-| Engineering | Engineering/Active, /Next, /Backlog, and numbered sprint boards | Dev work |
-| Product | Product/Tasks | Product decisions and specs |
-| Design | Design/Tasks | Design work |
-| Sales | Sales/Tasks | Sales activity |
-
-### Workflow
-
-1. New ideas/initiatives start as tasks in **Leadership/Tasks**.
-2. Leadership tasks may spin off subtasks in Engineering, Product, Design, or Sales dartboards.
-3. Non-Leadership tasks should have a **project** tag applied.
-
-### Custom Properties
-
-- **`project`** (multiselect) — `sendfeed.to`, `segment.holdings`, `homestead.plus`, `tokidoki.pro`, `nobullies.club`, `openfaith.world`, `stevenroland.com`, `allgood-roland.org`, `theirvoice.blog`, `theoandchar.com`
-- **`importance`** (select) — `Critical`, `Priority`, `Pickup`, `Optional`
-
-### Task Types & Statuses
-
-- **Types:** Task, Bug, Feature, Experimental, Maintenance, Security
-- **Statuses:** Ready, Up Next, In Progress, In Review, On Hold, Done, Left
-
-### Assignees
-
-- Steven Roland (`steven@segment.team`) — default assignee
-- Montanna Allgood (`montanna@segment.team`)
-- Dart AI
+Dart is the project management tool. Access via MCP tools (`mcp__Dart__*`). Full structure, dartboards, statuses, and custom properties are documented in [[90_system/vault-guide]].
