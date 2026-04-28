@@ -53,6 +53,7 @@ Launched. Live in production.
 
 ## Docs
 
+- [[10_projects/stevenroland.com/leads|Freelance Pipeline]]
 - [[10_projects/stevenroland.com/tech-stack|Tech Stack]]
 - [[10_projects/stevenroland.com/roadmap|Roadmap]]
 - [[10_projects/stevenroland.com/changelog|Changelog]]
